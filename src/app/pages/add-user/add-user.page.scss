@@ -1,0 +1,149 @@
+.o{
+  margin-left: 2%;
+}
+.a{
+  //  height: 100%;
+    width: 40%;
+    //text-align: 'center';
+    //margin-top: -10%;
+   // margin-left: -5%;
+    //size: 50%;
+    
+
+}
+.center{
+    
+    color: rgb(81, 79, 199);
+}
+.b{
+   // background-image: url('/assets/16577f68d733b64.jpg');
+    height: 25%;
+    width: 25;
+}
+.v{
+  //background-image: url('/assets/IMG_1929.jpg');
+  border-radius: 15px;
+  padding: 3em;
+  background-color: rgb(224, 230, 230);
+
+  margin-left: 5px;
+  margin-right: 5px;
+
+}
+.z{
+   // background-image: url('/assets/arton49505-8149c.jpg');
+  border-radius: 15px;
+  padding: 3em;
+  margin-left: 5px;
+  background-color: rgb(224, 230, 230);
+
+  margin-right: 5px;
+}
+.bo{
+   // background-image: url('/assets/evo-park-parking-standard-poteaux.jpg');
+  border-radius: 15px;
+  padding: 3em;
+  margin-left: 5px;
+  background-color: rgb(224, 230, 230);
+
+  margin-right: 5px;
+
+}
+.boo{
+   // background-image: url('/assets/parking_souterrain_de_l_hotel_de_ville_reference.png');
+  border-radius: 15px;
+  background-color:  rgb(204, 248, 248);
+
+  padding: 3em;
+  margin-left: 5px;
+  margin-right: 5px;
+
+}
+.bz{
+   // background-image: url('/assets/téléchargement.jpeg');
+    border-radius: 15px;
+    padding: 3em;
+    //margin-left: 5px;
+   // background-color:  rgb(204, 248, 248);
+    background-color:  rgb(209, 247, 253);
+
+    //margin-right: 5px;
+
+
+
+
+    
+
+
+
+
+}
+.ox{
+   // background-image: url('/assets/CASA-4.jpg');
+    border-radius: 15px;
+    background-color: rgb(79, 109, 109);
+    border-block-end-color: rgb(2, 5, 5);
+    padding: 3em;
+    margin-left: 5px;
+    margin-right: 5px;
+    
+}
+
+     
+.wrapper {
+    display: flex;
+   flex-wrap: wrap;
+ }
+ 
+ 
+ 
+.wrapper {
+    display: grid;
+ 
+  grid-gap: 10px;
+ 
+    
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+ 
+   
+    grid-auto-rows: minmax(150px, auto);
+ 
+ }
+ 
+ 
+ 
+ .box {
+    border-radius: 15px;
+    padding: 3em;
+    margin-left: 5px;
+    margin-right: 5px;
+    // Add a flex rule for browsers not supporting the
+    // CSS Grid Layout spec
+    flex: 1 1 300px;
+ 
+    h2 {
+       font-weight: bold;
+   }
+ }
+ 
+ 
+ 
+ .wrapper > * {
+  margin-bottom: 10px;
+ }
+ 
+ 
+ 
+ @supports (display: grid) {
+   .wrapper > * {
+     margin: 0;
+   }
+ }
+ 
+ 
+ .turquoise {
+  //   background-color: rgb(224, 230, 230);
+     background-color:  rgb(79, 109, 109);
+    // background-image: url('/assets/16577f68d733b64.jpg');
+  }
+ 

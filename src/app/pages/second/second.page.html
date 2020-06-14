@@ -1,0 +1,63 @@
+<ion-header>
+  <ion-toolbar color="secondary">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title >Se connecter</ion-title>
+  </ion-toolbar>
+</ion-header>
+ 
+<ion-content  color="meduim">
+    <form  #form="ngForm"><!-- (ngSubmit)="register(form)"-->
+      <ion-grid>
+        <ion-row color="primary" justify-content-center>
+          <ion-col align-self-center size-md="6" size-lg="5" size-xs="12">
+            <div text-center>
+              <h3><ion-text color="dark">Connecter</ion-text></h3>
+            </div>
+            <div padding>
+              <ion-item>
+                <ion-input  name="name" type="text" placeholder="Full Name"
+                 ngModel required></ion-input>
+              </ion-item>
+              <ion-item>
+                <ion-input name="matr" type="nubmer" placeholder="Matricule " 
+                ngModel required></ion-input>
+              </ion-item>
+              <ion-item>
+                <ion-input name="password" type="password" placeholder="Password"
+                 ngModel required></ion-input>
+              </ion-item>
+              <!--ion-item>
+                <ion-input name="confirm" type="password" placeholder="Password again" 
+                ngModel required></ion-input>
+              </ion-item-->
+            </div>
+            <div padding>
+              <ion-button expand="block" size="large" color="dark" fill="outline"
+               shape="round" >
+              <ion-button  size="small" type="submit" [disabled]="form.invalid"
+               expand="block"  expand="block" color="dark" routerLink="/menu/second/details" 
+               routerDirection="forward" shape="round" fill="outline">VALIDER</ion-button>
+              <ion-button  size="small" type="reset" [disabled]="form.invalid" 
+              expand="block" color="dark" fill="outline" shape="round" >ANNULER</ion-button>
+            </ion-button>
+            </div>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </form>
+
+   
+
+    <!--<ion-content padding>-->  
+        <ion-row>
+            <ion-col>
+              <ion-button class="log-in-button" color="dark" expand="block" routerLink="/login" routerDirection="root" ><!-- (click)="doGoogleLogin()"  -->
+               SORTER
+              </ion-button>
+            </ion-col>
+          </ion-row>
+
+    </ion-content>
+    

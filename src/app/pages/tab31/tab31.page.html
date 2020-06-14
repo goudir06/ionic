@@ -1,0 +1,113 @@
+<ion-header>
+        <ion-toolbar color="secondary">
+            <ion-buttons slot="start">
+          
+            <ion-menu-button></ion-menu-button>
+          </ion-buttons>
+          <ion-title >Parking 17</ion-title>
+        </ion-toolbar>
+      </ion-header>
+      
+      <ion-content padding>
+          
+
+    <button class="aa" ></button>
+<br><br>
+  <div class="p">
+<ion-row style="border-bottom: groove;" >
+  <ion-col col-4>
+  <ion-label ></ion-label>
+</ion-col>
+
+  <ion-col col-4>
+    <ion-label ></ion-label>
+  </ion-col>
+
+  <ion-col col-4>
+       <ion-label ></ion-label>
+  </ion-col>
+</ion-row>
+
+    <ion-row style="border-bottom: groove;">
+      <ion-col col-4>
+      <ion-label >Adresse:</ion-label>
+    </ion-col>
+    <ion-col col-4>
+      <ion-label ><ion-button  fill="outline" 
+        routerLink="/menu/first/tabs/tab1" routerDirection="root" style = "width: 19ch"
+        ><ion-icon name="pin"></ion-icon >  l'adresse </ion-button></ion-label>
+    
+
+
+      </ion-col>
+  </ion-row>
+  <ion-row style="border-bottom: groove;">
+      <ion-col col-4>
+      <ion-label >Numero de telephoe:</ion-label>
+    </ion-col>
+    <ion-col col-4>
+      <ion-label ><ion-button   style = "width: 19ch" fill="outline"  ><ion-icon ios="ios-call" md="md-call"></ion-icon>  0688754354</ion-button></ion-label>
+    </ion-col>
+      
+  </ion-row>
+  <ion-row style="border-bottom: groove;">
+      <ion-col col-4>
+      <ion-label  >Nombre totales des places :</ion-label>
+    </ion-col>
+    <ion-col col-4>
+      <ion-label ><ion-button  style = "width: 19ch" fill="outline" > 200 </ion-button></ion-label>
+    </ion-col>
+     
+  </ion-row>
+  <ion-row style="border-bottom: groove;">
+      <ion-col col-4>
+      <ion-label >Nombres des places libres</ion-label>
+    </ion-col>
+    <ion-col col-4>
+      <ion-label ><ion-button style = "width: 19ch; color: rgb(0, 0, 0)" fill="outline" ><p>{{ number }}</p></ion-button></ion-label>
+    </ion-col>
+      
+  </ion-row>
+
+  <ion-row  style="border-bottom: groove;">
+    <ion-col col-4>
+    <ion-label >l'evenement associeé:</ion-label>
+  </ion-col>
+  <ion-col col-4>
+    <ion-label ><ion-button  style = "width: 19ch; color: rgb(0, 0, 0); " fill="outline" >{{ eve }}</ion-button></ion-label>
+  </ion-col>
+    
+</ion-row>
+
+<ion-row  style="border-bottom: groove;">
+  <ion-col col-4>
+  <ion-label >Prix/h</ion-label>
+</ion-col>
+<ion-col col-4>
+  <ion-label ><ion-button  style = "width: 19ch" fill="outline" >5 dh</ion-button></ion-label>
+</ion-col>
+  
+</ion-row>
+
+</div>
+
+ 
+    <ion-button style="width: 33ch;margin-left: 13%" class="m"  (click) = "function()" > Nombres des places libres </ion-button> 
+
+
+  <ion-label ><p >{{ text }}</p></ion-label>
+
+  <ion-button  style="width: 33ch;margin-left: 13%" class="m"  (click) = "function2()" > Evenement associe </ion-button> 
+
+  <ion-label ><p >{{ xx }}</p></ion-label>
+
+  
+
+
+<br><br>
+          <ion-button  color="dark" expand="block" routerLink="/login" 
+          routerDirection="root" ><!-- (click)="doGoogleLogin()"  -->
+            SORTER
+           </ion-button>
+      </ion-content>
+      
